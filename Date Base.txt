@@ -1,4 +1,4 @@
-Cause Im not meeting with Seeds yet. I create this txt file with amark fo creating date base.
+Cause I haeven't met with Seeds yet. I created this txt file with a mark for creating date base.
 
 Name = "light"
 
