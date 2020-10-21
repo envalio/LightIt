@@ -1,0 +1,86 @@
+Cause Im not meeting with Seeds yet. I create this txt file with amark fo creating date base.
+
+Name = "light"
+
+4 collection
+
+1st collection "employers"
+    {
+        "_id": {
+            "$oid": "5f88495eadf30c137c82035b"
+        },
+        "position": "seller",
+        "full_name": "John Winchester",
+        "username": "dadyjhon"
+    }
+    {
+        "_id": {
+            "$oid": "5f88495eadf30c137c82035b"
+        },
+        "position": "seller",
+        "full_name": "John Winchester",
+        "username": "dadyjhon"
+    }
+    {
+        "_id": {
+            "$oid": "5f885590adf30c137c82035d"
+        },
+        "position": "cashier",
+        "full_name": "Tom Hidelston",
+        "username": "loki"
+    }
+
+2nd collection "goods"
+    {
+        "_id": {
+            "$oid": "5f86e03e0ea0d41528a3ce30"
+        },
+        "name": "phone",
+        "decription": "bla bla bla",
+        "price": "50",
+        "date": "2020-09-15T13:59:46.996Z"
+    }
+    {
+        "_id": {
+            "$oid": "5f86e0510ea0d41528a3ce31"
+        },
+        "name": "TV",
+        "decription": "bla bla bla",
+        "price": "220",
+        "date": "2020-10-15T13:59:46.996Z"
+    }
+    {
+        "_id": {
+            "$oid": "5f86e0900ea0d41528a3ce32"
+        },
+        "name": "computer",
+        "decription": "bla bla bla",
+        "price": "370",
+        "date": "2020-10-20T13:59:46.996Z"
+    }
+
+3rd collection "order-queue"
+    {
+        "_id": {
+            "$oid": "5f9053218017e7033c45fbd4"
+        },
+        "date": "2020-10-21T15:26:25.434Z",
+        "item": {
+            "_id": {
+                "$oid": "5f86e0510ea0d41528a3ce31"
+            },
+            "name": "TV",
+            "decription": "bla bla bla",
+            "price": "220",
+            "date": "2020-10-15T13:59:46.996Z"
+        },
+        "discount": 0,
+        "TOTTAL": "220",
+        "status_order": false,
+        "status_paid": false,
+        "check_paid": "2020-10-21T18:18:59.598Z"
+    } 
+    Any u may create with POST request.
+
+4th collection "logs"
+    Logging any request to db
