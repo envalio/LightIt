@@ -1,6 +1,6 @@
 Cause I haeven't met with Seeds yet. I created this txt file with a mark for creating date base.
 
-Name = "light"
+Name = "light".
 
 4 collection
 
